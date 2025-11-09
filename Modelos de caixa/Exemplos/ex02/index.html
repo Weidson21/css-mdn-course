@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        p, ul{
+            border: 2px solid rebeccapurple;
+        }
+
+        span, li{
+            border: 2px solid, blue;
+        }
+
+        ul{
+            display: inline-flex;
+            list-style: none;
+            padding: 0;
+        }
+        .inline {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        I am a paragraph. Some ofthe <span>words have been wrapped in a <span>sapan element</span>.</span>
+    </p>
+    <ul>
+        <li>Item one</li>
+        <li>Item two</li>
+        <li>Item three</li>
+    </ul>
+    <p class="inline">I am a paragraph. A short one.</p>
+    <p class="inline">I am another paragraph. Also a short one.</p>
+</body>
+</html>
