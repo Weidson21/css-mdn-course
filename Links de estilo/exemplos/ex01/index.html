@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilizar links</title>
+    <style>
+        body{
+            width: 300px;
+            margin: 0 auto;
+            font-size: 1.2rem;
+            font-family: sans-serif;
+        }
+        p{
+            line-height: 1.4;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        a{
+            outline-color: transparent;
+            text-decoration: none;
+        }
+
+        a:link{
+            color: #6900ff;
+        }
+
+        a:visited{
+            color: #a5c300;
+        }
+
+        a:focus{
+            text-decoration: none;
+            background: #bae498;
+        }
+
+        a:hover{
+            text-decoration: none;
+            background: #cdfeaa;
+        }
+
+        a:active{
+            background: #6900ff;
+            color: #cdfeaa;
+        }
+    </style>
+</head>
+<body>
+    <p><a href="#">A simples link</a></p>
+</body>
+</html>
